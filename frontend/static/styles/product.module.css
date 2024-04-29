@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.card {
+    width: 18rem;
+    margin: 1rem;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease-in-out !important;
+  }
+
+  .card:hover{
+    background-color: #97FEED !important;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05) !important; /* Aumenta el tamaño en un 15% */
+  }
+  
+  .cardImage {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    object-fit: cover;
+  }
+  
+  .cardBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+  }
+  
+  .cardTitle {
+    min-height: 4.5rem;
+    color: #071952;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif !important;
+  }
+
+  .cardText {
+    font-family: 'Rubik', sans-serif !important;
+    font-size: 15px;
+    font-weight: bold;
+    color: #e2de03;
+  }

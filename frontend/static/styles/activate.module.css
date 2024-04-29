@@ -1,0 +1,17 @@
+.bodyHeight{
+    min-height: 75vh;
+}
+
+.centerContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alertHeight{
+    min-height: 10vh;
+}
+
+.errorColor{
+    color: red;
+}

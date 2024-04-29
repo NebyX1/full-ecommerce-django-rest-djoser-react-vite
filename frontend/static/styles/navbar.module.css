@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+.navIcons{
+    color: #97FEED;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.navIcons:hover{
+    color: #071952;
+    transform: scale(1.15); /* Aumenta el tamaño en un 15% */
+}
+
+.navBgColor{
+    background-color: #085155;
+}
+
+.navShadow{
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.8);
+}
+
+.linkStyle{
+    color: #97FEED !important;
+    font-size: 18px !important;
+    /* font-family: 'Exo 2', sans-serif !important; */
+    font-family: 'Rubik', sans-serif !important;
+    text-decoration: none !important;
+    transition: color 0.2s ease-in-out, transform 0.2s ease-in-out !important;
+}
+
+.linkStyle:hover{
+    color: #071952 !important;
+    transform: scale(1.05) !important; /* Aumenta el tamaño en un 15% */
+}
+
+.iconEffect{
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.iconEffect:hover{
+    opacity: 0.5;
+    transform: scale(1.01); /* Aumenta el tamaño en un 15% */
+}
+
+.cartItemCount {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    z-index: 2; /* Para que se vea por encima de los demás elementos */
+  }
+
+  .username{
+    color: #97FEED;
+    margin-top: 8px;
+    margin-right: 20px;
+  }
+
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }

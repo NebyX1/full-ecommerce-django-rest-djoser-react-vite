@@ -1,0 +1,27 @@
+{% load i18n %}
+
+{% block subject %}
+{% blocktrans %}¡Bienvenido a The Leaf Way - Tu cuenta ha sido creada y activada exitosamente!{% endblocktrans %}
+{% endblock subject %}
+
+{% block text_body %}
+{% blocktrans %}¡Felicidades! Tu cuenta en The Leaf Way ha sido creada y está lista para usar.{% endblocktrans %}
+{% endblock text_body %}
+
+{% block html_body %}
+<div style="font-family: Arial, sans-serif; color: #333;">
+  <h2 style="color: #198754;">🌿 ¡Bienvenido a The Leaf Way!</h2>
+  <p>¡Hola! 👋 Estamos emocionados de darte la bienvenida a nuestra comunidad. Tu cuenta ha sido creada y activada con éxito.</p>
+  <p style="margin-bottom: 20px;">Ahora puedes iniciar sesión y explorar todo lo que The Leaf Way tiene para ofrecerte.</p>
+
+  <p style="text-align: center; margin-bottom: 30px;">
+    <a href="http://localhost:3000/login" style="padding: 10px 20px; border: none; background-color: #51ad2d; color: white; text-decoration: none; border-radius: .3rem; text-align: center;">
+      🌱 Iniciar Sesión
+    </a>
+  </p>
+
+  <p>Si tienes dificultades para iniciar sesión, no dudes en contactarnos en: <a href="mailto:contacto@theleafway.com">contacto@theleafway.com</a>.</p>
+  <p>¡Estamos deseando verte pronto! 🌟</p>
+</div>
+
+{% endblock html_body %}

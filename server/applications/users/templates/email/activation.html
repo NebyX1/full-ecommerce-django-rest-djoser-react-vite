@@ -1,0 +1,34 @@
+{% load i18n %}
+
+{% block subject %}
+Activación de cuenta en The Leaf Way
+{% endblock subject %}
+
+{% block text_body %}
+Estás recibiendo este correo electrónico porque necesitas completar el proceso de activación en theleafway.com.
+
+Por favor, ve a la siguiente página para activar tu cuenta:
+http://localhost:3000/user-verification/{{ uid }}/{{ token }}/
+
+Bienvenido a bordo! Bueno, casi...
+
+{% endblock text_body %}
+
+{% block html_body %}
+<div style="font-family: Arial, sans-serif; color: #333;">
+  <h2 style="color: #198754;">🌿 Activación de cuenta en <span style="color: #28a745;">The Leaf Way</span></h2>
+  <p>¡Hola! 👋 Estás a solo un paso de unirte a nuestra maravillosa comunidad en <strong>The Leaf Way</strong>. Solo necesitas confirmar tu dirección de email.</p>
+  <p style="margin-bottom: 20px;">Haz clic en el botón de abajo para activar tu cuenta y empezar tu viaje con nosotros:</p>
+
+  <p style="text-align: center; margin-bottom: 30px;">
+    <a href="http://localhost:3000/user-verification/{{ uid }}/{{ token }}/" style="padding: 10px 20px; border: 2px solid #198754; color: #198754; text-decoration: none; border-radius: .3rem; transition: background-color .15s ease-in-out, border-color .15s ease-in-out; text-align: center;">
+      🌱 Activar Cuenta
+    </a>
+  </p>
+
+  <p>Si tienes dificultades para activar tu cuenta, no dudes en contactarnos en: <a href="mailto:contacto@theleafway.com">contacto@theleafway.com</a>.</p>
+  <p>¡Esperamos verte pronto! 🌟</p>
+</div>
+
+{% endblock html_body %}
+

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.footerBg{
+    background-color: #07393b;
+    color: #97FEED;
+}
+
+.footerIcons{
+    color: #97FEED;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.footerIcons:hover{
+    color: #071952;
+    transform: scale(1.15);
+}
+
+.footerLink{
+    color: #97FEED !important;
+    font-size: 18px !important;
+    font-family: 'Rubik', sans-serif !important;
+    text-decoration: none !important;
+    transition: color 0.2s ease-in-out, transform 0.2s ease-in-out !important;
+}
+
+.footerLink:hover{
+    color: #071952 !important;
+    transform: scale(1.05) !important; /* Aumenta el tamaño en un 15% */
+}

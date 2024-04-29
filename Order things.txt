@@ -1,0 +1,3 @@
+-Crear Backend with Django
+-Crear sistema de login Google Auth, rutas protegidas
+

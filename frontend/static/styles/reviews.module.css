@@ -1,0 +1,27 @@
+.starColor {
+  color: #ffd700;
+  font-size: 1.5rem;
+  margin: 0 0.2rem;
+}
+
+.paginationContainer {
+  margin: 0 5px; /* Espacio entre los números de página */
+  font-size: 1.2rem; /* Tamaño del texto */
+  align-items: center; /* Centrar verticalmente */
+}
+
+.reviewCard {
+  width: 100%;
+  max-width: 50vh;
+  margin: auto;
+}
+
+.activePage {
+  color: blue;
+  background-color: lightblue;
+  border-radius: 5px;
+}
+
+.bodyHeight {
+  min-height: 75vh;
+}

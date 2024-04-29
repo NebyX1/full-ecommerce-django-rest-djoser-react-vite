@@ -1,0 +1,18 @@
+.sidebar {
+    background-color: #f8f9fa; /* Color de fondo para la barra lateral */
+  }
+  
+  .sidebarItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+  
+  .sidebarItem:hover {
+    background-color: #e9ecef; /* Efecto hover para los ítems */
+  }
+  
+  .sidebarHeight {
+    min-height: 75vh; /* Altura de la barra lateral */
+  }

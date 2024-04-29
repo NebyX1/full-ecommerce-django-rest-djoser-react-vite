@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.fontComponent {
+  font-family: 'Rubik', sans-serif;
+  font-size: small;
+}
+
+/* Estilo de fondo */
+.bgStyle {
+  background: linear-gradient(-70deg, #7591cd, #071564);
+  min-height: 130vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilo de inputs */
+.inputStyle {
+  background-color: #e7e6e6;
+}
+
+.inputStyle:focus {
+  background-color: #ffffff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo del formulario */
+.formStyle {
+  min-width: 50vh; /* Ancho para pantallas grandes */
+}
+
+/* Estilo del formulario para pantallas pequeñas */
+@media (max-width: 576px) {
+  .formStyle {
+    min-width: 35vh; /* Ancho para pantallas pequeñas */
+  }
+}
+
+/* Estilo de placeholder */
+.placeholderFontColor::placeholder {
+  color: #ada3e2;
+  font-size: small;
+}
